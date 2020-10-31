@@ -1,7 +1,12 @@
+%%
+%Coded by Santa
+%all rights reserved © 2020
+%GitHub.com
 clear, clc
 syms x;
 hold on
 grid on
+%%
 a=input('Ingrese la pendiente de la función   ');
 b=input('ingrese el termino independiente de la función ');
 ezplot(a*x+b);
